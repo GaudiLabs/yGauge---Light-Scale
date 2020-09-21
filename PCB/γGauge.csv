@@ -1,0 +1,11 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"G***";"yGauge";1;"LOGO";;;
+2;"BT3,BT2,BT4,BT5,BT6,BT7,BT8,BT9,BT10,BT11";"CELL_HOLDER_6_8";10;"Battery_Cell";;;
+3;",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,";"perforation";55;"";;;
+4;"SW1,SW2,SW3,SW4,SW5";"MSS22d18";5;"Switch";;;
+5;"D1,D2,D3,D4,D5";"LP_T67K";5;"LED";;;
+6;"BT1";"CR2032_Holder";1;"Battery_Cell";;;
+7;"R2,R3,R4,R5,R1,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20";"SMD_LowZ";20;"R";;;
+8;"G***";"yGauge_Gaudi";1;"LOGO";;;
+9;"G***";"yGauge_logo";1;"LOGO";;;
+10;"G***";"OpenHardware_gold";1;"LOGO";;;

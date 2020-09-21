@@ -1,0 +1,670 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:GaudiLabsPartsLibrary
+LIBS:γGauge-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Battery_Cell BT1
+U 1 1 59871DC6
+P 4600 1700
+F 0 "BT1" H 4718 1796 50  0000 L CNN
+F 1 "Battery_Cell" H 4718 1705 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:CR2032_Holder" V 4600 1760 50  0001 C CNN
+F 3 "" V 4600 1760 50  0001 C CNN
+	1    4600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT2
+U 1 1 59871E38
+P 2150 2850
+F 0 "BT2" H 2268 2946 50  0000 L CNN
+F 1 "Battery_Cell" H 2268 2855 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:CELL_HOLDER_6_8" V 2150 2910 50  0001 C CNN
+F 3 "" V 2150 2910 50  0001 C CNN
+	1    2150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT3
+U 1 1 59871E76
+P 2150 3400
+F 0 "BT3" H 2268 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 2268 3405 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:CELL_HOLDER_6_8" V 2150 3460 50  0001 C CNN
+F 3 "" V 2150 3460 50  0001 C CNN
+	1    2150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 59871F18
+P 2150 5400
+F 0 "D1" V 2188 5283 50  0000 R CNN
+F 1 "LED" V 2097 5283 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:LP_T67K" H 2150 5400 50  0001 C CNN
+F 3 "" H 2150 5400 50  0001 C CNN
+	1    2150 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch SW1
+U 1 1 598723A0
+P 2150 4050
+F 0 "SW1" V 2072 4288 60  0000 L CNN
+F 1 "Switch" V 2178 4288 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:MSS22d18" H 2150 4050 60  0001 C CNN
+F 3 "" H 2150 4050 60  0001 C CNN
+	1    2150 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 59872FEC
+P 2250 4650
+F 0 "R3" H 2320 4696 50  0000 L CNN
+F 1 "R" H 2320 4605 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 2180 4650 50  0001 C CNN
+F 3 "" H 2250 4650 50  0001 C CNN
+	1    2250 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 3500
+Wire Wire Line
+	2450 1800 7400 1800
+Connection ~ 1950 2650
+Wire Wire Line
+	1950 1500 6900 1500
+Wire Wire Line
+	2450 3500 2150 3500
+Wire Wire Line
+	2450 1800 2450 5700
+Wire Wire Line
+	2450 5700 2150 5700
+Wire Wire Line
+	2150 5700 2150 5550
+Wire Wire Line
+	1950 3750 2150 3750
+Wire Wire Line
+	1950 1500 1950 3750
+Wire Wire Line
+	2150 2650 1950 2650
+Wire Wire Line
+	2150 2950 2150 3200
+$Comp
+L Battery_Cell BT4
+U 1 1 59881CBD
+P 3350 2850
+F 0 "BT4" H 3468 2946 50  0000 L CNN
+F 1 "Battery_Cell" H 3468 2855 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:CELL_HOLDER_6_8" V 3350 2910 50  0001 C CNN
+F 3 "" V 3350 2910 50  0001 C CNN
+	1    3350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT5
+U 1 1 59881CC3
+P 3350 3400
+F 0 "BT5" H 3468 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 3468 3405 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:CELL_HOLDER_6_8" V 3350 3460 50  0001 C CNN
+F 3 "" V 3350 3460 50  0001 C CNN
+	1    3350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 59881CC9
+P 3350 5400
+F 0 "D2" V 3388 5283 50  0000 R CNN
+F 1 "LED" V 3297 5283 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:LP_T67K" H 3350 5400 50  0001 C CNN
+F 3 "" H 3350 5400 50  0001 C CNN
+	1    3350 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch SW2
+U 1 1 59881CCF
+P 3350 4050
+F 0 "SW2" V 3272 4288 60  0000 L CNN
+F 1 "Switch" V 3378 4288 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:MSS22d18" H 3350 4050 60  0001 C CNN
+F 3 "" H 3350 4050 60  0001 C CNN
+	1    3350 4050
+	0    1    1    0   
+$EndComp
+Connection ~ 3650 3500
+Connection ~ 3150 2650
+Wire Wire Line
+	3650 3500 3350 3500
+Wire Wire Line
+	3650 1800 3650 5700
+Wire Wire Line
+	3650 5700 3350 5700
+Wire Wire Line
+	3350 5700 3350 5550
+Wire Wire Line
+	3350 5200 3350 5250
+Wire Wire Line
+	3350 4300 3350 4500
+Wire Wire Line
+	3150 3750 3350 3750
+Wire Wire Line
+	3150 1500 3150 3750
+Wire Wire Line
+	3350 2650 3150 2650
+Wire Wire Line
+	3350 2950 3350 3200
+$Comp
+L Battery_Cell BT6
+U 1 1 59881E3D
+P 4550 2850
+F 0 "BT6" H 4668 2946 50  0000 L CNN
+F 1 "Battery_Cell" H 4668 2855 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:CELL_HOLDER_6_8" V 4550 2910 50  0001 C CNN
+F 3 "" V 4550 2910 50  0001 C CNN
+	1    4550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT7
+U 1 1 59881E43
+P 4550 3400
+F 0 "BT7" H 4668 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 4668 3405 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:CELL_HOLDER_6_8" V 4550 3460 50  0001 C CNN
+F 3 "" V 4550 3460 50  0001 C CNN
+	1    4550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D3
+U 1 1 59881E49
+P 4550 5400
+F 0 "D3" V 4588 5283 50  0000 R CNN
+F 1 "LED" V 4497 5283 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:LP_T67K" H 4550 5400 50  0001 C CNN
+F 3 "" H 4550 5400 50  0001 C CNN
+	1    4550 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch SW3
+U 1 1 59881E4F
+P 4550 4050
+F 0 "SW3" V 4472 4288 60  0000 L CNN
+F 1 "Switch" V 4578 4288 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:MSS22d18" H 4550 4050 60  0001 C CNN
+F 3 "" H 4550 4050 60  0001 C CNN
+	1    4550 4050
+	0    1    1    0   
+$EndComp
+Connection ~ 4850 3500
+Connection ~ 4350 2650
+Wire Wire Line
+	4850 3500 4550 3500
+Wire Wire Line
+	4850 1800 4850 5700
+Wire Wire Line
+	4850 5700 4550 5700
+Wire Wire Line
+	4550 5700 4550 5550
+Wire Wire Line
+	4550 5200 4550 5250
+Wire Wire Line
+	4550 4300 4550 4500
+Wire Wire Line
+	4350 3750 4550 3750
+Wire Wire Line
+	4350 1500 4350 3750
+Wire Wire Line
+	4550 2650 4350 2650
+Wire Wire Line
+	4550 2950 4550 3200
+$Comp
+L Battery_Cell BT8
+U 1 1 5988204F
+P 5850 2850
+F 0 "BT8" H 5968 2946 50  0000 L CNN
+F 1 "Battery_Cell" H 5968 2855 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:CELL_HOLDER_6_8" V 5850 2910 50  0001 C CNN
+F 3 "" V 5850 2910 50  0001 C CNN
+	1    5850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT9
+U 1 1 59882055
+P 5850 3400
+F 0 "BT9" H 5968 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 5968 3405 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:CELL_HOLDER_6_8" V 5850 3460 50  0001 C CNN
+F 3 "" V 5850 3460 50  0001 C CNN
+	1    5850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D4
+U 1 1 5988205B
+P 5850 5400
+F 0 "D4" V 5888 5283 50  0000 R CNN
+F 1 "LED" V 5797 5283 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:LP_T67K" H 5850 5400 50  0001 C CNN
+F 3 "" H 5850 5400 50  0001 C CNN
+	1    5850 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch SW4
+U 1 1 59882061
+P 5850 4050
+F 0 "SW4" V 5772 4288 60  0000 L CNN
+F 1 "Switch" V 5878 4288 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:MSS22d18" H 5850 4050 60  0001 C CNN
+F 3 "" H 5850 4050 60  0001 C CNN
+	1    5850 4050
+	0    1    1    0   
+$EndComp
+Connection ~ 6150 3500
+Connection ~ 5650 2650
+Wire Wire Line
+	6150 3500 5850 3500
+Wire Wire Line
+	6150 1800 6150 5700
+Wire Wire Line
+	6150 5700 5850 5700
+Wire Wire Line
+	5850 5700 5850 5550
+Wire Wire Line
+	5850 5200 5850 5250
+Wire Wire Line
+	5850 4300 5850 4500
+Wire Wire Line
+	5650 3750 5850 3750
+Wire Wire Line
+	5650 1500 5650 3750
+Wire Wire Line
+	5850 2650 5650 2650
+Wire Wire Line
+	5850 2950 5850 3200
+$Comp
+L Battery_Cell BT10
+U 1 1 59882A34
+P 7100 2850
+F 0 "BT10" H 7218 2946 50  0000 L CNN
+F 1 "Battery_Cell" H 7218 2855 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:CELL_HOLDER_6_8" V 7100 2910 50  0001 C CNN
+F 3 "" V 7100 2910 50  0001 C CNN
+	1    7100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT11
+U 1 1 59882A3A
+P 7100 3400
+F 0 "BT11" H 7218 3496 50  0000 L CNN
+F 1 "Battery_Cell" H 7218 3405 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:CELL_HOLDER_6_8" V 7100 3460 50  0001 C CNN
+F 3 "" V 7100 3460 50  0001 C CNN
+	1    7100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D5
+U 1 1 59882A40
+P 7100 5400
+F 0 "D5" V 7138 5283 50  0000 R CNN
+F 1 "LED" V 7047 5283 50  0000 R CNN
+F 2 "GaudiLabsFootPrints:LP_T67K" H 7100 5400 50  0001 C CNN
+F 3 "" H 7100 5400 50  0001 C CNN
+	1    7100 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch SW5
+U 1 1 59882A46
+P 7100 4050
+F 0 "SW5" V 7022 4288 60  0000 L CNN
+F 1 "Switch" V 7128 4288 60  0000 L CNN
+F 2 "GaudiLabsFootPrints:MSS22d18" H 7100 4050 60  0001 C CNN
+F 3 "" H 7100 4050 60  0001 C CNN
+	1    7100 4050
+	0    1    1    0   
+$EndComp
+Connection ~ 7400 3500
+Connection ~ 6900 2650
+Wire Wire Line
+	7400 3500 7100 3500
+Wire Wire Line
+	7400 1800 7400 5700
+Wire Wire Line
+	7400 5700 7100 5700
+Wire Wire Line
+	7100 5700 7100 5550
+Wire Wire Line
+	7100 4300 7100 4600
+Wire Wire Line
+	6900 3750 7100 3750
+Wire Wire Line
+	6900 1500 6900 3750
+Wire Wire Line
+	7100 2650 6900 2650
+Wire Wire Line
+	7100 2950 7100 3200
+Connection ~ 3150 1500
+Connection ~ 3650 1800
+Connection ~ 4350 1500
+Connection ~ 4600 1800
+Connection ~ 4600 1500
+Connection ~ 5650 1500
+Connection ~ 6150 1800
+Connection ~ 4850 1800
+$Comp
+L R R1
+U 1 1 5988B653
+P 2050 4650
+F 0 "R1" H 2120 4696 50  0000 L CNN
+F 1 "R" H 2120 4605 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 1980 4650 50  0001 C CNN
+F 3 "" H 2050 4650 50  0001 C CNN
+	1    2050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5988B6AD
+P 2050 5050
+F 0 "R2" H 2120 5096 50  0000 L CNN
+F 1 "R" H 2120 5005 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 1980 5050 50  0001 C CNN
+F 3 "" H 2050 5050 50  0001 C CNN
+	1    2050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5988B7AF
+P 2250 5050
+F 0 "R4" H 2320 5096 50  0000 L CNN
+F 1 "R" H 2320 5005 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 2180 5050 50  0001 C CNN
+F 3 "" H 2250 5050 50  0001 C CNN
+	1    2250 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4900 2050 4800
+Wire Wire Line
+	2250 4900 2250 4800
+Wire Wire Line
+	2050 4500 2250 4500
+Wire Wire Line
+	2150 4300 2150 4500
+Connection ~ 2150 4500
+Wire Wire Line
+	2050 5200 2250 5200
+Wire Wire Line
+	2150 5250 2150 5200
+Connection ~ 2150 5200
+$Comp
+L R R7
+U 1 1 5988C564
+P 3450 4650
+F 0 "R7" H 3520 4696 50  0000 L CNN
+F 1 "R" H 3520 4605 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 3380 4650 50  0001 C CNN
+F 3 "" H 3450 4650 50  0001 C CNN
+	1    3450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 5988C56A
+P 3250 4650
+F 0 "R5" H 3320 4696 50  0000 L CNN
+F 1 "R" H 3320 4605 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 3180 4650 50  0001 C CNN
+F 3 "" H 3250 4650 50  0001 C CNN
+	1    3250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 5988C570
+P 3250 5050
+F 0 "R6" H 3320 5096 50  0000 L CNN
+F 1 "R" H 3320 5005 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 3180 5050 50  0001 C CNN
+F 3 "" H 3250 5050 50  0001 C CNN
+	1    3250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 5988C576
+P 3450 5050
+F 0 "R8" H 3520 5096 50  0000 L CNN
+F 1 "R" H 3520 5005 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 3380 5050 50  0001 C CNN
+F 3 "" H 3450 5050 50  0001 C CNN
+	1    3450 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4900 3250 4800
+Wire Wire Line
+	3450 4900 3450 4800
+Wire Wire Line
+	3250 4500 3450 4500
+Connection ~ 3350 4500
+Wire Wire Line
+	3250 5200 3450 5200
+Connection ~ 3350 5200
+$Comp
+L R R11
+U 1 1 5988C7B8
+P 4650 4650
+F 0 "R11" H 4720 4696 50  0000 L CNN
+F 1 "R" H 4720 4605 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 4580 4650 50  0001 C CNN
+F 3 "" H 4650 4650 50  0001 C CNN
+	1    4650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 5988C7BE
+P 4450 4650
+F 0 "R9" H 4520 4696 50  0000 L CNN
+F 1 "R" H 4520 4605 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 4380 4650 50  0001 C CNN
+F 3 "" H 4450 4650 50  0001 C CNN
+	1    4450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 5988C7C4
+P 4450 5050
+F 0 "R10" H 4520 5096 50  0000 L CNN
+F 1 "R" H 4520 5005 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 4380 5050 50  0001 C CNN
+F 3 "" H 4450 5050 50  0001 C CNN
+	1    4450 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 5988C7CA
+P 4650 5050
+F 0 "R12" H 4720 5096 50  0000 L CNN
+F 1 "R" H 4720 5005 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 4580 5050 50  0001 C CNN
+F 3 "" H 4650 5050 50  0001 C CNN
+	1    4650 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4900 4450 4800
+Wire Wire Line
+	4650 4900 4650 4800
+Wire Wire Line
+	4450 4500 4650 4500
+Connection ~ 4550 4500
+Wire Wire Line
+	4450 5200 4650 5200
+Connection ~ 4550 5200
+$Comp
+L R R15
+U 1 1 5988C91A
+P 5950 4650
+F 0 "R15" H 6020 4696 50  0000 L CNN
+F 1 "R" H 6020 4605 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 5880 4650 50  0001 C CNN
+F 3 "" H 5950 4650 50  0001 C CNN
+	1    5950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 5988C920
+P 5750 4650
+F 0 "R13" H 5820 4696 50  0000 L CNN
+F 1 "R" H 5820 4605 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 5680 4650 50  0001 C CNN
+F 3 "" H 5750 4650 50  0001 C CNN
+	1    5750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 5988C926
+P 5750 5050
+F 0 "R14" H 5820 5096 50  0000 L CNN
+F 1 "R" H 5820 5005 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 5680 5050 50  0001 C CNN
+F 3 "" H 5750 5050 50  0001 C CNN
+	1    5750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 5988C92C
+P 5950 5050
+F 0 "R16" H 6020 5096 50  0000 L CNN
+F 1 "R" H 6020 5005 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 5880 5050 50  0001 C CNN
+F 3 "" H 5950 5050 50  0001 C CNN
+	1    5950 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4900 5750 4800
+Wire Wire Line
+	5950 4900 5950 4800
+Wire Wire Line
+	5750 4500 5950 4500
+Connection ~ 5850 4500
+Wire Wire Line
+	5750 5200 5950 5200
+Connection ~ 5850 5200
+$Comp
+L R R19
+U 1 1 5988CC6E
+P 7200 4650
+F 0 "R19" H 7270 4696 50  0000 L CNN
+F 1 "R" H 7270 4605 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 7130 4650 50  0001 C CNN
+F 3 "" H 7200 4650 50  0001 C CNN
+	1    7200 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 5988CC74
+P 7000 4650
+F 0 "R17" H 7070 4696 50  0000 L CNN
+F 1 "R" H 7070 4605 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 6930 4650 50  0001 C CNN
+F 3 "" H 7000 4650 50  0001 C CNN
+	1    7000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 5988CC7A
+P 7000 5050
+F 0 "R18" H 7070 5096 50  0000 L CNN
+F 1 "R" H 7070 5005 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 6930 5050 50  0001 C CNN
+F 3 "" H 7000 5050 50  0001 C CNN
+	1    7000 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R20
+U 1 1 5988CC80
+P 7200 5050
+F 0 "R20" H 7270 5096 50  0000 L CNN
+F 1 "R" H 7270 5005 50  0000 L CNN
+F 2 "GaudiLabsFootPrints:SMD_LowZ" V 7130 5050 50  0001 C CNN
+F 3 "" H 7200 5050 50  0001 C CNN
+	1    7200 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4900 7000 4800
+Wire Wire Line
+	7200 4900 7200 4800
+Wire Wire Line
+	7000 4500 7200 4500
+Connection ~ 7100 4500
+Wire Wire Line
+	7000 5200 7200 5200
+Connection ~ 7100 5200
+Wire Wire Line
+	7100 5200 7100 5250
+$EndSCHEMATC
